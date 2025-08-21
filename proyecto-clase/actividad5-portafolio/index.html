@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stiwar Cuadro</title>
+    <style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+        color: #333;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 50px auto;
+        background: #ffffffcc;
+        backdrop-filter: blur(5px);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    .imagen {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .imagen h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .imagen img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #ccc;
+    }
+
+    .datos-personales p {
+        margin: 5px 0;
+    }
+
+    .seccion {
+        margin-top: 30px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    /* RESPONSIVO */
+    @media (max-width: 600px) {
+        .imagen {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+
+        .imagen img{
+        margin-top: 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="imagen">
+        <h1>Mi Portafolio</h1>
+        <img src="https://i.postimg.cc/xjkSX0Xk/Foto-portafolio.png" alt="Foto de perfil" />
+    </div>
+
+    <div class="datos-personales">
+        <h2>Datos Personales</h2>
+        <p><strong>Nombre:</strong> Stiwar Cuadro</p>
+        <p><strong>Correo:</strong> cuadrostiwar@gmail.com</p>
+        <p><strong>Teléfono:</strong> +57 3249037379</p>
+        <p><strong>Ciudad:</strong> Soledad, Colombia</p>
+    </div>
+
+    <div class="seccion">
+        <h2>Sobre mí</h2>
+        <p>
+        Soy estudiante de ingeniería apasionado por la tecnología, el desarrollo web y la automatización de procesos. Siempre en busca de aprender algo nuevo.
+        </p>
+    </div>
+
+    <div class="seccion">
+        <h2>Habilidades</h2>
+        <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, C++</li>
+        <li>Diseño web responsivo</li>
+        <li>Manejo de Git y GitHub</li>
+        </ul>
+    </div>
+
+    <div class="seccion">
+        <h2>Intereses</h2>
+        <p>
+        Desarrollo web, inteligencia artificial, y estudiante de mantenimiento de sistemas.
+        </p>
+    </div>
+    </div>
+
+    <footer>
+    © 2025 Stiwar Cuadro. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
